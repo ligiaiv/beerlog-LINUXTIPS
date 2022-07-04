@@ -1,5 +1,5 @@
 from typing import List
-from fastapi import FastAPI, Response,status  # ASGI
+from fastapi import FastAPI, Response, status  # ASGI
 from beerlog.core import get_beer_from_db
 from beerlog.serializers import BeerIn, BeerOut
 from beerlog.database import get_session
